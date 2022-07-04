@@ -44,6 +44,8 @@ const Viewer = () => {
     const [sendStreams, setSendStreams] = useState({});
 
     const [nodeStreams, setNodeStreams] = useState({});
+
+    //self definition param
     const [playedSecond, setPlayedSecond] = useState(0);
     const [playedSecond_tmp, setPlayedSecond_tmp] = useState(0);
     const [audioUrl,setAudioUrl] = useState('../audio/test0.mp3');
